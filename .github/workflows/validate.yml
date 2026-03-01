@@ -1,0 +1,78 @@
+name: Validate Modpack
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.24"
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Validate index (packwiz refresh)
+        run: |
+          packwiz refresh
+          if [ -n "$(git diff)" ]; then
+            echo "::error::index.toml is out of date! Run 'packwiz refresh' locally before pushing."
+            git diff
+            exit 1
+          fi
+          echo "Index is up to date."
+
+      - name: Check mod compatibility
+        run: |
+          echo "=== Mod Compatibility Report ==="
+          echo ""
+
+          MC_VERSION=$(grep 'minecraft' pack.toml | head -1 | cut -d'"' -f2)
+          LOADER=$(grep 'fabric' pack.toml | head -1 | cut -d'"' -f2)
+          echo "Target: Minecraft $MC_VERSION / Fabric $LOADER"
+          echo ""
+
+          ERRORS=0
+          TOTAL=0
+
+          for f in mods/*.pw.toml; do
+            MOD_NAME=$(grep '^name' "$f" | head -1 | cut -d'"' -f2)
+            FILENAME=$(grep '^filename' "$f" | head -1 | cut -d'"' -f2)
+            SIDE=$(grep '^side' "$f" | head -1 | cut -d'"' -f2)
+            HASH=$(grep '^hash ' "$f" | head -1 | cut -d'"' -f2)
+            URL=$(grep '^url' "$f" | head -1 | cut -d'"' -f2)
+            TOTAL=$((TOTAL + 1))
+
+            # Check required fields
+            if [ -z "$FILENAME" ] || [ -z "$HASH" ] || [ -z "$URL" ]; then
+              echo "FAIL: $MOD_NAME - missing filename, hash, or URL"
+              ERRORS=$((ERRORS + 1))
+              continue
+            fi
+
+            # Check download URL is reachable
+            HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -L --head "$URL" 2>/dev/null || echo "000")
+            if [ "$HTTP_CODE" != "200" ] && [ "$HTTP_CODE" != "302" ]; then
+              echo "FAIL: $MOD_NAME - download URL returned HTTP $HTTP_CODE"
+              ERRORS=$((ERRORS + 1))
+              continue
+            fi
+
+            echo "  OK: $MOD_NAME ($FILENAME) [side=$SIDE]"
+          done
+
+          echo ""
+          echo "=== Result: $TOTAL mods checked, $ERRORS errors ==="
+
+          if [ "$ERRORS" -gt 0 ]; then
+            echo "::error::$ERRORS mod(s) failed validation"
+            exit 1
+          fi
