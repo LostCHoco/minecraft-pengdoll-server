@@ -1,0 +1,13 @@
+name = "Modded Survival Server"
+author = "chanh"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "1ee2fcafdb283caf51f01098bcf0c718db76e55733b800274a695179821f8dbe"
+
+[versions]
+fabric = "0.18.4"
+minecraft = "1.21.1"
