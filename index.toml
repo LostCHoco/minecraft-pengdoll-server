@@ -6,8 +6,28 @@ hash = "86364ddf4303cb39f92bf9b45578ad2ef04f8da58de00858207b57668a34dd8e"
 metafile = true
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+hash = "17fc9c6cab5ae0ea6973440f143ad6ffa4e5d373749c80077b631dbbe4df3f3b"
+metafile = true
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "1102440dd2533ba3a154419bb95ff1f81b858201eb0c44d2a2eea486c74e565a"
+metafile = true
+
+[[files]]
 file = "mods/artifacts.pw.toml"
 hash = "752300203d7552e000734b344dc6f545ec450bcdb6c3aed3e96b2e8d4de4d78d"
+metafile = true
+
+[[files]]
+file = "mods/athena-ctm.pw.toml"
+hash = "5601649308a7d9f1658a942bbd48d3bd899a81fabd4ea1296952b48474d1ee1d"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "a9f6cf1a98bc318c887b672aecaff6ffdbf33a6ec06af5f2686b292988d0846e"
 metafile = true
 
 [[files]]
@@ -31,6 +51,11 @@ hash = "0c345c80310a4bd58c757e43d6060338a85d34eaffcb674a6e9cbf22ecbc9cb8"
 metafile = true
 
 [[files]]
+file = "mods/chipped.pw.toml"
+hash = "a4d21da45c40e8f1e3b76c9855ea3f1c15736cf2b12475e9de3efd05f8f48a8d"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "446c173c87b7908daee86b0dee89c6b628c77beb7a0bc091ff5252b7c0062080"
 metafile = true
@@ -38,6 +63,11 @@ metafile = true
 [[files]]
 file = "mods/cristel-lib.pw.toml"
 hash = "636945a93f673014109dc9d3768b4b06e8c7506d067be68602478a7244ff98f9"
+metafile = true
+
+[[files]]
+file = "mods/cyberanner-ironchest.pw.toml"
+hash = "6a89cf951df2610ceaf07877657de5ae63bf3bc67cc94f5d802c9cc78114fbf9"
 metafile = true
 
 [[files]]
@@ -121,13 +151,28 @@ hash = "5f694b0c16bfbf69b05cb28eef7a553ae548e623bc2cbccc98e01d950d3611db"
 metafile = true
 
 [[files]]
+file = "mods/inventory-profiles-next.pw.toml"
+hash = "ec8051b38aeae6549713ed9c1951fea7f1fabf74fa49aad8c76dcae4cc874ebd"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "5284f6d141a990f4ea021c12b851e07102f5cb22743cf7b33be6ad2eb4c8d3f5"
 metafile = true
 
 [[files]]
+file = "mods/jade.pw.toml"
+hash = "37a45ed98e4edc9c8224cb06f72be8914fae69687601d4e15009f1cb9f27563c"
+metafile = true
+
+[[files]]
 file = "mods/lambdynamiclights.pw.toml"
 hash = "502d4ba2ca8c7f6f52830cfc43fc12b567023266f2b557ee2b8eea737b58f8ea"
+metafile = true
+
+[[files]]
+file = "mods/libipn.pw.toml"
+hash = "183d7866328971a71ef6948ef832afc4a43d6b807fdcafe682bc0265d5d651fa"
 metafile = true
 
 [[files]]
@@ -166,6 +211,11 @@ hash = "9dd87a4d86aa1867419e36ed263c7a5803d7f7817abf5b458ee3101bf0e3b25b"
 metafile = true
 
 [[files]]
+file = "mods/moonlight.pw.toml"
+hash = "fda06e889a670d153da171cc91f72b3fd26f9228344dae2e36abd3412e0d4f41"
+metafile = true
+
+[[files]]
 file = "mods/mythic_mounts.pw.toml"
 hash = "90e4c774f8b42b46d8785d8671a021e465817e01712b8781c56722e8a8f31749"
 metafile = true
@@ -196,6 +246,11 @@ hash = "e5c1e399e09df87b7126f16ea3097c6f0c5ea47d06a52fc696a68319e18e866f"
 metafile = true
 
 [[files]]
+file = "mods/rei.pw.toml"
+hash = "d22546ad55b555931eb527f163b3564e00c12c7dc8101378b87447dfcc8e0652"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "d3f633dd12cd039a4e58dd398d1c80a324b0d78b9da5b3972b69640bfed211ed"
 metafile = true
@@ -213,6 +268,11 @@ metafile = true
 [[files]]
 file = "mods/spectrum.pw.toml"
 hash = "529a4dea81dc871fa30c9f0429831840cf002f470403cf8b5d5233d287572a68"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries.pw.toml"
+hash = "d6bd6f926076809bb9720e44ec970fde84336763485c82d546a5ae0999cfe73f"
 metafile = true
 
 [[files]]
@@ -241,8 +301,23 @@ hash = "860812150cb54f0d9ee1bce7b72798b6cc5f752bb05709f0c60231d054ec281d"
 metafile = true
 
 [[files]]
+file = "mods/waystones.pw.toml"
+hash = "ad0605e6d75812c78753fbcc98c802701b44ebeb8b2e7648ccb79d9c24dafd82"
+metafile = true
+
+[[files]]
 file = "mods/when-dungeons-arise.pw.toml"
 hash = "b29babace87ed059ba641c55c4592de6d87ad339852005475bd2c1ac636e5101"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "d7c23c5b2f03df76caa7a4d66ca7961a5a3d05c538e1bda65bfd93fb80a07c5e"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "97a62d0b00bdb7f6a2ba51ad05b2ed8c3ebe06098ce893b3d638d59498addf7f"
 metafile = true
 
 [[files]]
