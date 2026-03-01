@@ -236,6 +236,16 @@ hash = "f89967ea9150d6e5371057dc31fc8b8180c79808410ee6318088fcf78a16f58f"
 metafile = true
 
 [[files]]
+file = "mods/pneumono_core.pw.toml"
+hash = "819fa1f18729ecf4b95a1ada63d2cabb1a3a53e02f93145432cd80a5baa97048"
+metafile = true
+
+[[files]]
+file = "mods/pneumono_gravestones.pw.toml"
+hash = "df54013e846a658401b6fd48ed311b80c89073eddf2507a42225d21a7b69e78c"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "44a6662d6ac604b2173a8bc426a10c0d621c8ba99d37d1b72525c140c42cb358"
 metafile = true
