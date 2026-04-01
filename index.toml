@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/supplementaries-client.json"
+hash = "fa624b7a9f52852cc9c37622842484c66a49a082225c3355b687fa5c2637f56f"
+
+[[files]]
 file = "docs/note/mod-investigation-12.md"
 hash = "cda715619ec3f66d88dbb3066021e5ebfdc565d069b9c07d9741bcb8a5958dcf"
 
