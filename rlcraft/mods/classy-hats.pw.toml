@@ -1,0 +1,13 @@
+name = "Classy Hats"
+filename = "classyhats-1.6.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8c7f05c8fbd2cc1dbbb591310cfde12d8b5fabbc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2722339
+project-id = 281125

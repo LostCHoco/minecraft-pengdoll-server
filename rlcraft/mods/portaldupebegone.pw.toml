@@ -1,0 +1,13 @@
+name = "PortalDupeBegone"
+filename = "PortalDupeBegone-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bda7454ad62b7b756a91572124413cfaa7aefb2d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3987130
+project-id = 676133

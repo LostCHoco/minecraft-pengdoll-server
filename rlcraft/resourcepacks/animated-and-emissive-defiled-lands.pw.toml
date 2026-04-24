@@ -1,0 +1,13 @@
+name = "Animated and Emissive: Defiled Lands"
+filename = "AnimEmis_defiledlands.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e6b65e45e070cb991850da5bd158a578c26bcd4b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3852378
+project-id = 638065

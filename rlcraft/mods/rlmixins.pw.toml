@@ -1,0 +1,13 @@
+name = "RLMixins"
+filename = "RLMixins-1.2.15.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "28fa0f389d8999218f428c970e1a036cff9eb111"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4611530
+project-id = 711730

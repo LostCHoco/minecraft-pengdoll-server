@@ -1,0 +1,13 @@
+name = "Forgotten Items"
+filename = "forgottenitems-1.12.2-1.3.1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dd6591445527edca398aa517d99e21e734bed674"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4167346
+project-id = 262884

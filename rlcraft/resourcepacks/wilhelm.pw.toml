@@ -1,0 +1,13 @@
+name = "Wilhelm"
+filename = "Wilhelm.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4599d3354f1ceac083e024b0bb4e20481050601e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4358088
+project-id = 815314

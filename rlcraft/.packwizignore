@@ -1,0 +1,10 @@
+# 클라이언트 옵션 - 사용자 설정을 덮어쓰면 안 됨
+options.txt
+optionsof.txt
+
+# 서버 전용 - Docker 환경변수가 관리
+server.properties
+
+# 문서 - pack에 포함될 필요 없음
+*Changelog.txt
+FOR SERVERS ONLY*.txt
