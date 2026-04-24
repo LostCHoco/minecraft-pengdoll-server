@@ -1,0 +1,13 @@
+name = "Spartan Defiled"
+filename = "spartandefiled-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cbd2a2681df91f979e70f2d74f3a9f79a346c4d5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3591538
+project-id = 563768

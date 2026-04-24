@@ -1,0 +1,13 @@
+name = "Leo's Craftable Chainmail"
+filename = "craftablechainmail-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e2602dccd3d6fc0edefa0b2f484a27597a06aae0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2701067
+project-id = 319746

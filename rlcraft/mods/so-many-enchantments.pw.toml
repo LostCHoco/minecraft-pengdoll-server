@@ -1,0 +1,13 @@
+name = "So Many Enchantments"
+filename = "SoManyEnchantments-0.5.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "729d99840e6baf0a42e2c512f92231729fec55d0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3574478
+project-id = 267035

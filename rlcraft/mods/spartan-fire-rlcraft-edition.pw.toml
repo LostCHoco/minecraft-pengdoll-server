@@ -1,0 +1,13 @@
+name = "Spartan and Fire: RLCraft Edition"
+filename = "spartanfire_rlcraft-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c369324f54c81b3204aa109f6e6e181cbd47b113"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4434589
+project-id = 676392

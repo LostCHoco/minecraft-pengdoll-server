@@ -1,0 +1,13 @@
+name = "Potion Rings"
+filename = "PotionFingers-r1.0-8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9c6383e4e6464f9c9fe8d2b49beeb56e7b4df326"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2825356
+project-id = 344696

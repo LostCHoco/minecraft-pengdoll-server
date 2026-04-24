@@ -1,0 +1,13 @@
+name = "TschippLib"
+filename = "tschipplib-1.12.2-1.1.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6260b29a034ad9852d5d4c73fb33c9cbb18f7483"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3459390
+project-id = 262886

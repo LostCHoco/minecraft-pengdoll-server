@@ -1,0 +1,13 @@
+name = "RLCraft Pengdoll"
+author = "pengdoll"
+version = "0.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "33aa0b955383be5d9f4eeaf7cd60d316841d32788f60cae7e16e425871769643"
+
+[versions]
+forge = "14.23.5.2860"
+minecraft = "1.12.2"

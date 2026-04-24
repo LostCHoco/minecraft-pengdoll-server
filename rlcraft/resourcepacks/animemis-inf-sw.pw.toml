@@ -1,0 +1,13 @@
+name = "Animated And Emissive: Ice and Fire and Spartan Weaponry"
+filename = "AnimEmis_InF_SW_Blue.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3e91555d7a36c26118409ec16b612fff8d8894a0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4325774
+project-id = 517821

@@ -1,0 +1,13 @@
+name = "TNTUtils"
+filename = "tnt_utilities-mc1.12-1.2.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4ec5d83ae703b63237675499b6445ecd63346c7e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2514484
+project-id = 227449

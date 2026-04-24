@@ -1,0 +1,13 @@
+name = "RLTooltip borders"
+filename = "RLTooltips.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ba82e518648215b89915cc0069e445cfa27bc799"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4375806
+project-id = 813247

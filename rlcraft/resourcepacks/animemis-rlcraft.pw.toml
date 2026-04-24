@@ -1,0 +1,13 @@
+name = "AnimEmis RL"
+filename = "Emis_Rlcraft.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "50e2787c434f8d767903101375627cf910fb6030"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4370067
+project-id = 678889

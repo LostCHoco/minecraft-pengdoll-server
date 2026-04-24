@@ -1,0 +1,13 @@
+name = "Animated and Emissive: Forgotten Items"
+filename = "AnimEmis_Forgottenitems.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "18e655c42a40381dd6518fd062b3566235a847af"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3858923
+project-id = 639575

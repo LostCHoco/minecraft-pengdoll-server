@@ -1,0 +1,13 @@
+name = "Ice and Fire: Dragons"
+filename = "iceandfire-1.7.1-1.12.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5f823e751ef8517951428f3ef82ee06bb3171b48"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2693547
+project-id = 264231

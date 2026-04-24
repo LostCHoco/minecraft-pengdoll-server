@@ -1,0 +1,13 @@
+name = "Wearable Backpacks: RLCraft Edition"
+filename = "WearableBackpacks-RLCraft-1.12.2-3.2.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2189a5d62455221cbce7f83b1839ebfe5553cd98"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4203074
+project-id = 684624

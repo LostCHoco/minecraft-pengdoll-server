@@ -1,0 +1,13 @@
+name = "Lycanites Mobs 32X"
+filename = "LycanitesMobs32X.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cff03d2b3c576bf5e11a40dd80d5d1347a913850"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2911713
+project-id = 326400

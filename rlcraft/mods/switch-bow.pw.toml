@@ -1,0 +1,13 @@
+name = "Switch-Bow"
+filename = "switchbow-1.6.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d115c9d86fc9a47c685e19c4ecf04d9cfa4fc88c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3561087
+project-id = 257820

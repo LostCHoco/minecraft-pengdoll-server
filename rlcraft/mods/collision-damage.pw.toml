@@ -1,0 +1,13 @@
+name = "Collision Damage"
+filename = "CollisionDamage-1.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f1619bf823b8533039c78e6fddfb1a52641170b6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4442257
+project-id = 494559

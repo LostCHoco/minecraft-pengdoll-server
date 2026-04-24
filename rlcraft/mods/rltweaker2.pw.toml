@@ -1,0 +1,13 @@
+name = "RLTweaker2"
+filename = "RLTweaker-1.12.2-0.5.12.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7ee689e2e1f62d68ffa739bde884627c9025906c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4486442
+project-id = 734347

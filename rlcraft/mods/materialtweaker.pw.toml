@@ -1,0 +1,13 @@
+name = "MaterialTweaker"
+filename = "MaterialTweaker-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b49af2a881da71e80dbd157b59e1a1b40c9c77dc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4178657
+project-id = 679116
