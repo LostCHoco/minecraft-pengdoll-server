@@ -26,7 +26,7 @@ events_token = "25e2a6992b2ac2f2882bcc4a06d95de683f602cd3482e85e414e81805e1270b3
 # ============================================================
 [[servers]]
 id = "modded"
-name = "Modded Survival"
+name = "AlphaPeng"
 enabled = true
 
   [servers.connect]
