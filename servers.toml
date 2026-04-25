@@ -26,7 +26,7 @@ events_token = "25e2a6992b2ac2f2882bcc4a06d95de683f602cd3482e85e414e81805e1270b3
 # ============================================================
 [[servers]]
 id = "modded"
-name = "AlphaPeng"
+name = "알파펭"
 enabled = true
 
   [servers.connect]
@@ -51,7 +51,7 @@ enabled = true
   mode = "survival"
   pvp = false
   max_players = 4
-  motd = "Pengdoll World"
+  motd = "첫번째 펭돌 서버"
   view_distance = 10
   simulation_distance = 6
 
@@ -61,7 +61,7 @@ enabled = true
 # ============================================================
 [[servers]]
 id = "rlcraft"
-name = "RLCraft"
+name = "RL펭"
 enabled = true
 
   [servers.connect]
@@ -86,7 +86,7 @@ enabled = true
   mode = "survival"
   pvp = false
   max_players = 4
-  motd = "RLCraft Pengdoll"
+  motd = "RLCraft 서버"
   view_distance = 8                  # 1.12.2 + 무거운 모드팩이라 낮게
   simulation_distance = 6
 
