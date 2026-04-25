@@ -8821,6 +8821,10 @@ file = "config/xptome.cfg"
 hash = "92a063c0d83b5b4b78d0ebcbeb89c2523764ea8c5a0eb9de82e5bdf8418166a9"
 
 [[files]]
+file = "external/OptiFine_1.12.2_HD_U_G5.jar"
+hash = "3b0006797771feb97f2d0d2908ae7c9a78cefb2e730af1c2e85d08a839ba271e"
+
+[[files]]
 file = "mods/RTG-1.12.2-6.1.0.0-snapshot.1.jar"
 hash = "354317bea5c6b97d1dfe17f9431005fd741f853425fa57c8bedd801947f70f52"
 
@@ -9268,6 +9272,11 @@ hash = "a39db085d980dcf786ea711276308ab7a0ef8424da5c3fb258389b78b6ef4023"
 metafile = true
 
 [[files]]
+file = "mods/journeymap.pw.toml"
+hash = "34bcd62bca78729d9c295bb8d7cbfde2239af84c86719744a4e8c0af7e69f150"
+metafile = true
+
+[[files]]
 file = "mods/kiwi.pw.toml"
 hash = "1f565c5763c98b09b83e9c6b2d50044e532b511a9d66105d83b8f0e9da77fff3"
 metafile = true
@@ -9406,6 +9415,11 @@ metafile = true
 [[files]]
 file = "mods/no-tree-punching.pw.toml"
 hash = "1c611284aae5119c9d52f35384cc6a3e6f90f9139ad3d4dd5ff411ef7d6063c0"
+metafile = true
+
+[[files]]
+file = "mods/optifine.pw.toml"
+hash = "007fa7417cac8a860e841bf390960425dfda06a5c5a20d1fadd64a6571b4b62b"
 metafile = true
 
 [[files]]
