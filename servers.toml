@@ -1,4 +1,4 @@
-# Pengdoll Minecraft Servers - Single Source of Truth
+# PengPort Minecraft Servers - Single Source of Truth
 #
 # 이 파일은 모든 서브시스템(클라이언트 런처, 클라우드 배포, Discord 봇)의
 # 참조 원본입니다. 이 파일을 수정하면 각 서브시스템이 자동으로 반영합니다.
@@ -87,7 +87,7 @@ enabled = true
   pvp = false
   max_players = 4
   motd = "RLCraft 서버"
-  view_distance = 8                  # 1.12.2 + 무거운 모드팩이라 낮게
+  view_distance = 6                  # 1.12.2 + 무거운 모드팩이라 낮게
   simulation_distance = 6
 
   # server.properties 추가 오버라이드 (itzg/minecraft-server 환경변수 직접 매핑).
